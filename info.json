@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "Oi, tudo bem?", "Olá, tudo bem?", "Oi, como vai?", "Olá, como vai?", "Bom dia", "Boa tarde", "Boa noite"],
+      "responses": ["Olá! Como posso ajudar você hoje com os serviços da Clínica Upwell?", "Oi! Em que posso ajudar você sobre a Clínica Upwell?", "Olá! Estou aqui para ajudar. O que você precisa saber sobre a Clínica Upwell?"]
+    },
+    {
+      "tag": "horario_funcionamento",
+      "patterns": ["Qual o horário de funcionamento?", "Vocês abrem que horas?", "Até que horas vocês funcionam?", "Vocês abrem no fim de semana?", "Vocês abrem aos domingos?"],
+      "responses": ["Nossa clínica funciona de segunda a sexta-feira, das 8h às 18h. Infelizmente, não abrimos aos fins de semana."]
+    },
+    {
+      "tag": "localizacao",
+      "patterns": ["Onde vocês estão localizados?", "Qual o endereço da clínica?", "Como chego até a clínica?", "Vocês têm estacionamento?", "Qual a estação de metrô mais próxima?"],
+      "responses": ["Estamos localizados na Rua Pais Leme, 136 conj 1206 - Pinheiros, São Paulo. Aqui está o link do Google Maps: https://goo.gl/maps/vku2XuXWJPwiyxdY6. Infelizmente, não temos estacionamento próprio, mas há várias opções de estacionamento nas proximidades. A estação de metrô mais próxima é a Faria Lima."]
+    },
+    {
+      "tag": "contato",
+      "patterns": ["Qual o número de contato?", "Qual o número do WhatsApp?", "Como posso entrar em contato?", "Qual o e-mail de vocês?", "Vocês têm um número de telefone fixo?"],
+      "responses": ["Você pode entrar em contato conosco através do nosso WhatsApp: (11) 98170-1663. Infelizmente, não temos um número de telefone fixo, mas estamos sempre disponíveis no WhatsApp!"]
+    },
+    {
+      "tag": "servicos",
+      "patterns": ["Quais serviços vocês oferecem?", "O que a clínica faz?", "Quais são os procedimentos disponíveis?", "Vocês oferecem fisioterapia?", "Vocês têm nutricionistas?"],
+      "responses": ["Oferecemos uma variedade de serviços, incluindo programas de perda de peso, colocação de DIU e Implanon, e tratamentos de varizes. Além disso, temos fisioterapeutas e nutricionistas disponíveis. Para mais detalhes, você pode agendar uma consulta com um de nossos especialistas."]
+    },
+    {
+      "tag": "agendamento",
+      "patterns": ["Quero marcar uma consulta", "Como faço para agendar uma consulta?", "Gostaria de agendar uma consulta", "Vocês têm horários disponíveis na próxima semana?", "Vocês têm horários disponíveis hoje?"],
+      "responses": ["Claro, ficaremos felizes em agendar uma consulta para você. Por favor, forneça seu nome, e-mail e convênio. Para verificar a disponibilidade de horários, por favor, entre em contato conosco através do nosso WhatsApp: (11) 98170-1663."]
+    },
+    {
+      "tag": "perda_peso",
+      "patterns": ["Quero perder peso", "Vocês têm programas de perda de peso?", "Como funciona o programa de perda de peso?", "Qual o preço do programa de perda de peso?", "Quanto tempo dura o programa de perda de peso?"],
+      "responses": ["Sim, temos programas de perda de peso. Nossos especialistas irão avaliar sua condição e criar um plano personalizado para ajudá-la a atingir seus objetivos de perda de peso. O preço e a duração do programa variam dependendo das suas necessidades específicas. Você pode agendar uma consulta para saber mais."]
+    },
+    {
+      "tag": "diu_implanon",
+      "patterns": ["Estou interessada em colocar DIU ou Implanon", "Como funciona a colocação de DIU e Implanon?", "Vocês fazem a colocação de DIU e Implanon?", "Qual o preço da colocação de DIU ou Implanon?", "A colocação de DIU ou Implanon é dolorosa?"],
+      "responses": ["Sim, realizamos a colocação de DIU e Implanon. Nossos especialistas irão avaliar sua condição e fornecer todas as informações necessárias sobre o procedimento, incluindo o preço e o que esperar durante a colocação. A dor varia de pessoa para pessoa, mas faremos o possível para garantir seu conforto durante o procedimento. Você pode agendar uma consulta para saber mais."]
+    },
+    {
+      "tag": "tratamento_varizes",
+      "patterns": ["Estou com varizes", "Vocês tratam varizes?", "Como funciona o tratamento de varizes?", "Qual o preço do tratamento de varizes?", "O tratamento de varizes é doloroso?"],
+      "responses": ["Sim, oferecemos tratamentos para varizes. Nossos especialistas irão avaliar sua condição e fornecer o melhor plano de tratamento para você, incluindo o preço e o que esperar durante o tratamento. A dor varia de pessoa para pessoa, mas faremos o possível para garantir seu conforto durante o tratamento. Você pode agendar uma consulta para saber mais."]
+    },
+    {
+      "tag": "convenio",
+      "patterns": ["Vocês aceitam meu convênio?", "Quais convênios vocês aceitam?", "Meu convênio cobre os serviços de vocês?", "Como funciona o reembolso pelo meu convênio?"],
+      "responses": ["Aceitamos uma variedade de convênios. Por favor, forneça o nome do seu convênio para que possamos verificar se ele é aceito e quais serviços são cobertos. Para informações sobre reembolso, recomendamos que você entre em contato diretamente com seu convênio."]
+    },
+    {
+      "tag": "transferencia",
+      "patterns": ["Não estou satisfeita com as respostas", "Quero falar com uma pessoa", "Não entendi a resposta", "Preciso de mais ajuda"],
+      "responses": ["Desculpe por qualquer inconveniente. Vou transferir você para um atendimento humano agora."]
+    },
+    {
+      "tag": "resumo_atendimento",
+      "patterns": ["Confirme o que foi discutido", "Resuma o atendimento", "Quais foram as recomendações?", "O que foi decidido?"],
+      "responses": ["Claro, aqui está um resumo do nosso atendimento: [resumo]. Por favor, confirme se está tudo correto."]
+    },
+    {
+      "tag": "finalizacao",
+      "patterns": ["Estou pronta para finalizar", "Não tenho mais perguntas", "Obrigada pela ajuda"],
+      "responses": ["Foi um prazer ajudar! Se tiver mais perguntas no futuro, não hesite em perguntar. Tenha um ótimo dia!"]
+    },
+    {
+      "tag": "off_topic",
+      "patterns": ["Qual é o seu filme favorito?", "Qual é a sua cor favorita?", "Você gosta de música?", "Você gosta de futebol?", "Qual é o seu time favorito?"],
+      "responses": ["Desculpe, eu sou um assistente virtual criado para responder perguntas sobre a Clínica Upwell. Vamos voltar ao assunto. Como posso ajudá-la com os serviços da Clínica Upwell?"]
+    }
+  ]
+}
