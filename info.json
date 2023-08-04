@@ -16,11 +16,6 @@
       "responses": ["Estamos localizados na Rua Pais Leme, 136 conj 1206 - Pinheiros, São Paulo. Aqui está o link do Google Maps: https://goo.gl/maps/vku2XuXWJPwiyxdY6. Infelizmente, não temos estacionamento próprio, mas há várias opções de estacionamento nas proximidades. A estação de metrô mais próxima é a Faria Lima."]
     },
     {
-      "tag": "contato",
-      "patterns": ["Qual o número de contato?", "Qual o número do WhatsApp?", "Como posso entrar em contato?", "Qual o e-mail de vocês?", "Vocês têm um número de telefone fixo?"],
-      "responses": ["Você pode entrar em contato conosco através do nosso WhatsApp: (11) 98170-1663. Infelizmente, não temos um número de telefone fixo, mas estamos sempre disponíveis no WhatsApp!"]
-    },
-    {
       "tag": "servicos",
       "patterns": ["Quais serviços vocês oferecem?", "O que a clínica faz?", "Quais são os procedimentos disponíveis?", "Vocês oferecem fisioterapia?", "Vocês têm nutricionistas?"],
       "responses": ["Oferecemos uma variedade de serviços, incluindo programas de perda de peso, colocação de DIU e Implanon, e tratamentos de varizes. Além disso, temos fisioterapeutas e nutricionistas disponíveis. Para mais detalhes, você pode agendar uma consulta com um de nossos especialistas."]
@@ -48,7 +43,12 @@
     {
       "tag": "convenio",
       "patterns": ["Vocês aceitam meu convênio?", "Quais convênios vocês aceitam?", "Meu convênio cobre os serviços de vocês?", "Como funciona o reembolso pelo meu convênio?"],
-      "responses": ["Aceitamos uma variedade de convênios. Por favor, forneça o nome do seu convênio para que possamos verificar se ele é aceito e quais serviços são cobertos. Para informações sobre reembolso, recomendamos que você entre em contato diretamente com seu convênio."]
+      "responses": ["Nós aceitamos os seguintes convênios: Allianz, Amil, Bradesco, Careplus, Itaú/Porto Seguro, Mediservice, Omint, Sompo, Sul América e Seguros Unimed. É necessário confirmar se o seu plano é aceito"]
+    },
+    {
+      "tag": "plano-aceito",
+      "patterns": ["Meu plano é aceito?"],
+      "responses": ["Entre em contato com um de nossos atendentes para verificar se o seu plano é aceito."]
     },
     {
       "tag": "transferencia",
