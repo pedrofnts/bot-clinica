@@ -21,11 +21,6 @@
       "responses": ["Oferecemos uma variedade de serviços, incluindo programas de perda de peso, colocação de DIU e Implanon, e tratamentos de varizes. Além disso, temos fisioterapeutas e nutricionistas disponíveis. Para mais detalhes, você pode agendar uma consulta com um de nossos especialistas."]
     },
     {
-      "tag": "agendamento",
-      "patterns": ["Quero marcar uma consulta", "Como faço para agendar uma consulta?", "Gostaria de agendar uma consulta", "Vocês têm horários disponíveis na próxima semana?", "Vocês têm horários disponíveis hoje?"],
-      "responses": ["Claro, ficaremos felizes em agendar uma consulta para você. Por favor, forneça seu nome, e-mail e convênio. Para verificar a disponibilidade de horários, por favor, entre em contato conosco através do nosso WhatsApp: (11) 98170-1663."]
-    },
-    {
       "tag": "perda_peso",
       "patterns": ["Quero perder peso", "Vocês têm programas de perda de peso?", "Como funciona o programa de perda de peso?", "Qual o preço do programa de perda de peso?", "Quanto tempo dura o programa de perda de peso?"],
       "responses": ["Sim, temos programas de perda de peso. Nossos especialistas irão avaliar sua condição e criar um plano personalizado para ajudá-la a atingir seus objetivos de perda de peso. O preço e a duração do programa variam dependendo das suas necessidades específicas. Você pode agendar uma consulta para saber mais."]
